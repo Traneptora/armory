@@ -86,15 +86,8 @@ li {
 
 strong, b {
     font-weight: 700;
-    color: #ffffff;
+    color: v.$text-color-light;
 }
-
-article p:first-of-type {
-    strong, b {
-        color: v.$text-color-light;
-    }
-}
-
 
 /**
  * Headings
