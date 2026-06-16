@@ -1,11 +1,11 @@
 # Site settings
-title: "The Grimoire"
+title: "The Armory"
 author: "Saph, Traneptora"
 description:
-  "A searchable D&D 5e spell list, sorted by class and level."
+  "A searchable D&D 5e item list, sorted by rarity."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://grimoire.thebombzen.xyz" # the base hostname & protocol for your site
-source-url: "https://github.com/Traneptora/grimoire/"
+url: "https://armory.thebombzen.xyz" # the base hostname & protocol for your site
+source-url: "https://github.com/Traneptora/armory/"
 permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 

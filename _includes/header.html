@@ -4,11 +4,11 @@
     <nav class="site-nav">
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
       <a href="#" id="menuIcon" class="menu-icon">
-        <img src="{{ '/images/hamburger.svg?v=1' | prepend: site.baseurl }}">
+        <img src="{{ '/images/hamburger.svg?v=2' | prepend: site.baseurl }}">
       </a>
       <div id="menu" class="trigger">
-        {% for spellClass in site.data.classes %}
-          <a class="page-link" href="{{site.baseurl}}/tags/{{spellClass.tag}}.html">{{ spellClass.name }}</a>
+        {% for itemClass in site.data.classes %}
+          <a class="page-link" href="{{site.baseurl}}/tags/{{itemClass.tag}}.html">{{ itemClass.name }}</a>
         {% endfor %}
       </div>
     </nav>
