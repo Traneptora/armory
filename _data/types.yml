@@ -26,3 +26,11 @@
   name: "Potions"
 - tag: scroll
   name: "Scrolls"
+- tag: ring
+  name: "Rings"
+- tag: rod
+  name: "Rods"
+- tag: wand
+  name: "Wand"
+- tag: staff
+  name: "Staffs"
