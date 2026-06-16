@@ -14,7 +14,8 @@ dl, dd, ol, ul, figure {
 
 html {
     width: 100vw;
-    margin-right: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%);
+    box-sizing: border-box;
     overflow-x: hidden;
 }
 
