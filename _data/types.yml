@@ -22,6 +22,9 @@
      name: "Simple"
 - tag: wondrous-item
   name: "Wondrous Items"
+  subtags:
+   - tag: tattoo
+     name: "Tattoo"
 - tag: potion
   name: "Potions"
 - tag: scroll
@@ -31,6 +34,6 @@
 - tag: rod
   name: "Rods"
 - tag: wand
-  name: "Wand"
+  name: "Wands"
 - tag: staff
   name: "Staffs"
