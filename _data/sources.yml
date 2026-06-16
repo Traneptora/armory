@@ -32,3 +32,6 @@
   soruce: HOTDQ
 - name: "Dungeon Master’s Guide"
   source: DMG
+- name: "Eberron: Rising from the Last War"
+  source: ERLW
+  
