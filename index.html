@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">All Spells</h1>
+  <p id="spellSearch">Search by name: <input type="search" class="jetsSearch" id="jetsSearch"></p>
+  <p id="tagSearch">Search by tag: <input type="search" name="tagSearch" id="tagSearchBar" class="jetsSearch"></p>
+  <p id="sourceSearch">Search by source: <input type="search" name="sourceSearch" id="sourceSearchBar" class="jetsSearch"></p>
+   <dl class="tag-list">
+    <dt>Spell tier:</dt>
+    {% for level in site.data.levels %}
+    <dd>
+      <a href="#{{level.tag}}">{{level.name}}</a>
+    </dd>
+    {% endfor %}
+  </dl>
+  {% for level in site.data.levels %}
+    <a id="{{level.tag}}"></a>
+    <h2 class="post-list-head jetsHide">{{level.title}}</h2>
+    <ul class="post-list jetsContent">
+      {% assign post_list = site.tags[level.tag] | sort: 'title' %}
+      {% for post in post_list %}
+        {% assign subtag_list = "" %}
+        {% for subtag in post.subtags %}
+        {% for item in subtag %}
+          {% assign subtag_list = subtag_list | append: "," | append: item[0] | append: "-" | append: item[1] %}
+        {% endfor %}
+        {% endfor %}
+        <li class="post-link-container" data-tags="{{ post.tags | join: ',' }}{{ subtag_list }}" data-sources="{{ post.sources | join: ',' }}">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <a class="post-meta jetsHide" href="#top">Back to top &#8593;</a>
+  {% endfor %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+

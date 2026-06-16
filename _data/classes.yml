@@ -1,0 +1,144 @@
+- name: Artificer
+  tag: artificer
+  subtags:
+   - name: Alchemist
+     tag: alchemist
+   - name: Armorer
+     tag: armorer
+   - name: Artillerist
+     tag: artillerist
+   - name: Battle Smith
+     tag: battle-smith
+- name: Bard
+  tag: bard
+- name: Cleric
+  tag: cleric
+  subtags:
+   - name: Arcana Domain
+     tag: arcana
+   - name: Death Domain
+     tag: death
+   - name: Forge Domain
+     tag: forge
+   - name: Grave Domain
+     tag: grave
+   - name: Knowledge Domain
+     tag: knowledge
+   - name: Life Domain
+     tag: life
+   - name: Light Domain
+     tag: light
+   - name: Nature Domain
+     tag: nature
+   - name: Order Domain
+     tag: order
+   - name: Peace Domain
+     tag: peace
+   - name: Tempest Domain
+     tag: tempest
+   - name: Trickery Domain
+     tag: trickery
+   - name: Twilight Domain
+     tag: twilight
+   - name: War Domain
+     tag: war
+- name: Druid
+  tag: druid
+  subtags:
+   - name: "Circle of the Land — Arctic"
+     tag: arctic
+   - name: "Circle of the Land — Coast"
+     tag: coast
+   - name: "Circle of the Land — Desert"
+     tag: desert
+   - name: "Circle of the Land — Forest"
+     tag: forest
+   - name: "Circle of the Land — Grassland"
+     tag: grassland
+   - name: "Circle of the Land — Mountain"
+     tag: mountain
+   - name: "Circle of the Land — Swamp"
+     tag: swamp
+   - name: "Circle of the Land — The Underdark"
+     tag: underdark
+   - name: Circle of Spores
+     tag: spores
+   - name: Circle of Stars
+     tag: stars
+   - name: Circle of Wildfire
+     tag: wildfire
+- name: Paladin
+  tag: paladin
+  subtags:
+   - name: Oath of Conquest
+     tag: conquest
+   - name: Oath of Devotion
+     tag: devotion
+   - name: Oath of Glory
+     tag: glory
+   - name: Oath of Redemption
+     tag: redemption
+   - name: Oath of The Ancients
+     tag: ancients
+   - name: Oath of The Crown
+     tag: crown
+   - name: Oath of The Watchers
+     tag: watchers
+   - name: Oath of Vengeance
+     tag: vengeance
+   - name: Oathbreaker
+     tag: oathbreaker
+- name: Ranger
+  tag: ranger
+  subtags:
+   - name: Fey Wanderer
+     tag: fey-wanderer
+   - name: Gloom Stalker
+     tag: gloom-stalker
+   - name: Horizon Walker
+     tag: horizon-walker
+   - name: Monster Slayer
+     tag: monster-slayer
+   - name: Swarmkeeper
+     tag: swarmkeeper
+- name: Sorcerer
+  tag: sorcerer
+  subtags:
+   - name: Aberrant Mind
+     tag: aberrant-mind
+   - name: Clockwork Soul
+     tag: clockwork-soul
+- name: Warlock
+  tag: warlock
+  subtags:
+    - name: The Archfey
+      tag: fey
+    - name: The Celestial
+      tag: celestial
+    - name: The Fathomless
+      tag: fathomless
+    - name: The Fiend
+      tag: fiend
+    - name: "The Genie — Dao"
+      tag: genie-dao
+    - name: "The Genie — Djinni"
+      tag: genie-djinni
+    - name: "The Genie — Efreeti"
+      tag: genie-efreeti
+    - name: "The Genie — Marid"
+      tag: genie-marid
+    - name: The Great Old One
+      tag: great-old-one
+    - name: The Hexblade
+      tag: hexblade
+    - name: The Undead
+      tag: undead
+    - name: The Undying
+      tag: undying
+- name: Wizard
+  tag: wizard
+  subtags:
+   - name: Chronurgy
+     tag: chronurgy
+   - name: Graviturgy
+     tag: graviturgy

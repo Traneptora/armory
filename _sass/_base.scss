@@ -1,0 +1,210 @@
+@use 'sass:math';
+@use 'sass:color';
+@use 'variables' as v;
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: v.$base-font-family;
+    font-size: v.$base-font-size;
+    line-height: v.$base-line-height;
+    font-weight: 400;
+    color: v.$text-color;
+    background-color: v.$background-color;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertycal rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: math.div(v.$spacing-unit, 2);
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: v.$small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: v.$spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+strong, b {
+    font-weight: 700;
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: v.$brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: color.adjust(v.$brand-color, $lightness: -15%);
+    }
+
+    &:hover {
+        color: v.$text-color;
+        text-decoration: underline;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: v.$grey-color;
+    border-left: 4px solid v.$grey-color-light;
+    padding-left: math.div(v.$spacing-unit, 2);
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid v.$grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(800px - (#{v.$spacing-unit} * 2));
+    max-width:         calc(800px - (#{v.$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: v.$spacing-unit;
+    padding-left: v.$spacing-unit;
+    @extend %clearfix;
+
+    @include v.media-query(v.$on-laptop) {
+        max-width: -webkit-calc(800px - (#{v.$spacing-unit}));
+        max-width:         calc(800px - (#{v.$spacing-unit}));
+        padding-right: math.div(v.$spacing-unit, 2);
+        padding-left: math.div(v.$spacing-unit, 2);
+    }
+}
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: v.$grey-color;
+        }
+    }
+}
