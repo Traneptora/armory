@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unommon Glammerweave"
+title: "Uncommon Glammerweave"
 date: 2026-06-16
 sources: [ERLW.277]
 tags: [uncommon, wondrous-item]
