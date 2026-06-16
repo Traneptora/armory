@@ -18,6 +18,9 @@ html {
     overflow-x: hidden;
 }
 
+::selection {
+    background-color: #404060;
+}
 /**
  * Basic styling
  */
@@ -83,8 +86,14 @@ li {
 
 strong, b {
     font-weight: 700;
+    color: #ffffff;
 }
 
+article p:first-of-type {
+    strong, b {
+        color: v.$text-color-light;
+    }
+}
 
 
 /**
@@ -103,10 +112,6 @@ a {
     color: v.$brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: color.adjust(v.$brand-color, $lightness: -15%);
-    }
-
     &:hover {
         color: v.$text-color;
         text-decoration: underline;
@@ -119,8 +124,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: v.$grey-color;
-    border-left: 4px solid v.$grey-color-light;
+    color: v.$text-color-dark;
+    border-left: 4px solid v.$text-color-dark;
     padding-left: math.div(v.$spacing-unit, 2);
     font-size: 18px;
     letter-spacing: -1px;
@@ -136,10 +141,9 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
+pre, code {
     font-size: 15px;
-    border: 1px solid v.$grey-color-light;
+    border: 1px solid v.$text-color-dark;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -158,8 +162,6 @@ pre {
         padding-left: 0;
     }
 }
-
-
 
 /**
  * Wrapper
@@ -208,7 +210,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: v.$grey-color;
+            fill: v.$text-color-dark;
         }
     }
 }

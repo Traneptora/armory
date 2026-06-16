@@ -6,8 +6,8 @@
  * Site header
  */
 .site-header {
-    border-top: 4px solid v.$brand-color-dark;
-    border-bottom: 1px solid v.$grey-color-light;
+    border-top: 4px solid v.$brand-color-secondary;
+    border-bottom: 1px solid v.$brand-color-dark;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -24,7 +24,7 @@
 
     &,
     &:visited {
-        color: v.$grey-color-dark;
+        color: v.$text-color-light;
     }
 }
 
@@ -80,7 +80,7 @@
                 height: 15px;
 
                 path {
-                    fill: v.$grey-color-dark;
+                    fill: v.$text-color-dark;
                 }
             }
         }
@@ -113,7 +113,7 @@
                 padding-left: 20px;
             }
             &:not(:last-child) {
-                border-bottom: 1px solid v.$grey-color-light;
+                border-bottom: 1px solid v.$brand-color-dark;
             }
         }
     }
@@ -125,7 +125,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid v.$grey-color-light;
+    border-top: 1px solid #612a15;
     padding: v.$spacing-unit 0;
 }
 
@@ -145,7 +145,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: v.$grey-color;
+    color: v.$text-color-dark;
     margin-left: math.div(v.$spacing-unit, -2);
     @extend %clearfix;
 }
@@ -208,9 +208,10 @@
      line-height: v.$base-line-height;
      width: 33%;
      max-width: 400px;
-     border: 1px solid v.$brand-color-dark;
+     border: 1px solid #606060;
      border-radius: 4px;
      margin-left: 8px;
+     background-color: #404040;
  }
 
 .page-content {
@@ -223,6 +224,7 @@
     font-family: 'Libertinus Serif Display';
     font-weight: 400;
     font-style: normal;
+    color: v.$text-color-light;
 }
 
 dl.tag-list {
@@ -231,7 +233,7 @@ dl.tag-list {
     dt {
         font-weight: bold;
         display: inline-block;
-        color: v.$grey-color-dark;
+        color: v.$text-color-dark;
         padding-right: 20px;
     }
     dd {
@@ -242,11 +244,11 @@ dl.tag-list {
 
 .post-list-head {
     font-size: 22px;
-    color: v.$grey-color-dark;
     margin-top: v.$spacing-unit;
     font-family: 'Libertinus Serif Display';
     font-weight: 400;
     font-style: normal;
+    color: v.$text-color-light;
 }
 
 .post-list {
@@ -265,7 +267,7 @@ dl.tag-list {
 
 .post-meta {
     font-size: v.$base-font-size;
-    color: v.$grey-color;
+    color: v.$text-color-dark;
 }
 
 .post-link {
@@ -307,6 +309,7 @@ dl.tag-list {
     font-family: 'Libertinus Serif Display';
     font-weight: 400;
     font-style: normal;
+    color: v.$text-color-light;
 
     @include v.media-query(v.$on-laptop) {
         font-size: 36px;
@@ -370,7 +373,7 @@ th {
     border: 0;
     padding: 10px 15px;
     font-weight: normal;
-    color: #fff;
+    color: v.$text-color-light;
     background-color: #771900;
 }
 
