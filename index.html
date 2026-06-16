@@ -8,18 +8,18 @@ layout: default
   <p id="tagSearch">Search by tag: <input type="search" name="tagSearch" id="tagSearchBar" class="jetsSearch"></p>
   <p id="sourceSearch">Search by source: <input type="search" name="sourceSearch" id="sourceSearchBar" class="jetsSearch"></p>
    <dl class="tag-list">
-    <dt>Spell tier:</dt>
-    {% for level in site.data.levels %}
+    <dt>Item rarity:</dt>
+    {% for rarity in site.data.rarities %}
     <dd>
-      <a href="#{{level.tag}}">{{level.name}}</a>
+      <a href="#{{rarity.tag}}">{{rarity.name}}</a>
     </dd>
     {% endfor %}
   </dl>
-  {% for level in site.data.levels %}
-    <a id="{{level.tag}}"></a>
-    <h2 class="post-list-head jetsHide">{{level.title}}</h2>
+  {% for rarity in site.data.rarities %}
+    <a id="{{rarity.tag}}"></a>
+    <h2 class="post-list-head jetsHide">{{rarity.title}}</h2>
     <ul class="post-list jetsContent">
-      {% assign post_list = site.tags[level.tag] %}
+      {% assign post_list = site.tags[rarity.tag] %}
       {% if post_list %}
       {% assign post_list = post_list | sort: 'title' %}
       {% for post in post_list %}

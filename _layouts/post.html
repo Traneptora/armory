@@ -12,9 +12,14 @@ layout: default
     </dl>
     <dl class="tag-list">
       <dt>Tags:</dt>
+      {% assign rarity_tags_str = '' %}
+      {% for rarity in site.data.rarities %}
+        {% assign rarity_tags_str = rarity_tags_str | append: ',' | append: rarity.tag %}
+      {% endfor %}
+      {% assign rarity_tags = rarity_tags_str | split: ',' %}
       {% for tag in page.tags %}
       <dd>
-          {% if tag == 'cantrip' or tag contains 'level' %}
+          {% if rarity_tags contains tag %}
             <a href="{{site.baseurl}}/#{{tag}}">{{tag}}</a>
           {% else %}
             <a href="{{site.baseurl}}/tags/{{tag}}.html">{{tag}}</a>

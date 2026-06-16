@@ -7,8 +7,8 @@
         <img src="{{ '/images/hamburger.svg?v=2' | prepend: site.baseurl }}">
       </a>
       <div id="menu" class="trigger">
-        {% for itemClass in site.data.classes %}
-          <a class="page-link" href="{{site.baseurl}}/tags/{{itemClass.tag}}.html">{{ itemClass.name }}</a>
+        {% for itemType in site.data.types %}
+          <a class="page-link" href="{{site.baseurl}}/tags/{{itemType.tag}}.html">{{ itemType.name }}</a>
         {% endfor %}
       </div>
     </nav>

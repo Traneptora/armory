@@ -1,7 +1,7 @@
 # from https://github.com/jfromaniello/joseoncodecom/raw/master/_plugins/tag_gen.rb
 module Jekyll
   class TagIndex < Page
-    def initialize(site, base, dir, tag, subtag, subtag_list)
+    def initialize(site, base, dir, tag, subtag, subtag_list, title)
       @site = site
       @base = base
       @dir = "../"
@@ -12,13 +12,21 @@ module Jekyll
       if subtag != nil
         self.data['tag'] = tag['tag']
         self.data['subtag'] = subtag['tag']
-        self.data['title'] = "#{tag['name']}: #{subtag['name']}"
+        if title != nil
+          self.data['title'] = title
+        else
+          self.data['title'] = "#{tag['name']}: #{subtag['name']}"
+        end
         self.data['parent'] = tag['name']
         self.data['subtags'] = nil
       else
         self.data['tag'] = tag
         self.data['subtag'] = nil
-        self.data['title'] = tag.capitalize
+        if title != nil
+          self.data['title'] = title
+        else
+          self.data['title'] = tag.capitalize
+        end
         self.data['subtags'] = subtag_list
       end
     end
@@ -27,11 +35,11 @@ module Jekyll
   class TagGenerator < Generator
     safe true
 
-    def write_tag(site, dir, clazz, tag)
-      write_tag_index(site, File.join(dir, tag), tag, nil, clazz['subtags'])
-      if clazz['subtags'] != nil
-        clazz['subtags'].each do |subclazz|
-          write_tag_index(site, File.join(dir, "#{clazz['tag']}-#{subclazz['tag']}"), clazz, subclazz, nil)
+    def write_tag(site, dir, typez, tag)
+      write_tag_index(site, File.join(dir, tag), tag, nil, typez['subtags'], typez['name'])
+      if typez['subtags'] != nil
+        typez['subtags'].each do |subtypez|
+          write_tag_index(site, File.join(dir, "#{typez['tag']}-#{subtypez['tag']}"), typez, subtypez, nil, nil)
         end
       end
     end
@@ -40,23 +48,23 @@ module Jekyll
       if site.layouts.key? 'tag_index'
         dir = site.config['tag_dir'] || 'tags'
         tags_done = []
-        site.data['classes'].each do |clazz|
-          write_tag(site, dir, clazz, clazz['tag'])
-          tags_done.push(clazz['tag'])
+        site.data['types'].each do |typez|
+          write_tag(site, dir, typez, typez['tag'])
+          tags_done.push(typez['tag'])
         end
-        site.data['properties'].each do |clazz|
-          write_tag(site, dir, clazz, clazz['tag'])
-          tags_done.push(clazz['tag'])
+        site.data['properties'].each do |typez|
+          write_tag(site, dir, typez, typez['tag'])
+          tags_done.push(typez['tag'])
         end
         site.tags.keys.each do |tag|
           if not tags_done.include? tag
-            write_tag_index(site, File.join(dir, tag), tag, nil, nil)
+            write_tag_index(site, File.join(dir, tag), tag, nil, nil, nil)
           end
         end
       end
     end
-    def write_tag_index(site, dir, tag, subtag, subtag_list)
-      index = TagIndex.new(site, site.source, dir, tag, subtag, subtag_list)
+    def write_tag_index(site, dir, tag, subtag, subtag_list, title)
+      index = TagIndex.new(site, site.source, dir, tag, subtag, subtag_list, title)
       index.render(site.layouts, site.site_payload)
       index.write(site.dest)
       site.pages << index

@@ -26,3 +26,5 @@
   source: SATO
 - name: "The Book of Many Things"
   source: BMT
+- name: "Free Basic Rules"
+  soruce: FBR

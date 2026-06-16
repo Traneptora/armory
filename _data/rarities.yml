@@ -1,0 +1,24 @@
+- tag: mundane
+  name: Mundane
+  title: Mundane
+- tag: common
+  name: Common
+  title: Common
+- tag: uncommon
+  name: Uncommon
+  title: Uncommon
+- tag: rare
+  name: Rare
+  title: Rare
+- tag: very-rare
+  name: Very rare
+  title: Very rare
+- tag: legendary
+  name: Legendary
+  title: Legendary
+- tag: artifact
+  name: Artifact
+  title: Artifact
+- tag: unknown
+  name: Unknown
+  title: Unknown

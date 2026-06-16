@@ -1,0 +1,26 @@
+- tag: adventuring-gear
+  name: "Adventuring Gear"
+- tag: armor
+  name: "Armor"
+  subtags:
+   - tag: light
+     name: "Light"
+   - tag: medium
+     name: "Medium"
+   - tag: heavy
+     name: "Heavy"
+- tag: weapon
+  name: "Weapons"
+  subtags:
+   - tag: martial
+     name: "Martial"
+   - tag: melee
+     name: "Melee"
+   - tag: ranged
+     name: "Ranged"
+   - tag: simple
+     name: "Simple"
+- tag: wondrous-item
+  name: "Wondrous Items"
+- tag: potion
+  name: "Potions"
