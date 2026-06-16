@@ -24,3 +24,5 @@
   name: "Wondrous Items"
 - tag: potion
   name: "Potions"
+- tag: scroll
+  name: "Scrolls"

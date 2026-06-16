@@ -28,3 +28,7 @@
   source: BMT
 - name: "Free Basic Rules"
   soruce: FBR
+- name: "Hoard of the Dragon Queen"
+  soruce: HOTDQ
+- name: "Dungeon Master’s Guide"
+  source: DMG
