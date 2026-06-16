@@ -9,6 +9,18 @@
      name: "Medium"
    - tag: heavy
      name: "Heavy"
+- tag: potion
+  name: "Potions"
+- tag: ring
+  name: "Rings"
+- tag: rod
+  name: "Rods"
+- tag: scroll
+  name: "Scrolls"
+- tag: staff
+  name: "Staves"
+- tag: wand
+  name: "Wands"
 - tag: weapon
   name: "Weapons"
   subtags:
@@ -25,15 +37,3 @@
   subtags:
    - tag: tattoo
      name: "Tattoo"
-- tag: potion
-  name: "Potions"
-- tag: scroll
-  name: "Scrolls"
-- tag: ring
-  name: "Rings"
-- tag: rod
-  name: "Rods"
-- tag: wand
-  name: "Wands"
-- tag: staff
-  name: "Staffs"
