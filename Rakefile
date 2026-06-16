@@ -9,6 +9,8 @@ require 'shellwords'
 desc "Generate blog files"
 task :generate do
   Dir.chdir "dist/"
+  system "git reset --hard"
+  system "git clean -dfx"
   system "git pull --rebase"
   Dir.chdir "../"
   Jekyll::Site.new(Jekyll.configuration({
