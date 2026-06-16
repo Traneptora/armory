@@ -166,6 +166,10 @@
 
 .footer-top-link {
     text-align: center;
+    
+    a {
+        color: v.$text-color-dark;
+    }
 }
 
 @include v.media-query(v.$on-laptop) {
@@ -365,6 +369,10 @@ th {
     font-weight: normal;
     color: v.$text-color-light;
     background-color: #771900;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #181823;
 }
 
 th {

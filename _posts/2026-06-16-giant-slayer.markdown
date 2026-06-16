@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ring of Free Action"
+title: "Giant Slayer"
 date: 2026-06-16
 sources: [DMG.191]
 tags: [rare, weapon]
