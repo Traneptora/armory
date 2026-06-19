@@ -1,0 +1,10 @@
+---
+layout: post
+title: "+3 Weapon"
+date: 2026-06-19
+sources: [DMG.213]
+tags: [very-rare, weapon]
+---
+***Weapon, very rare***
+
+You have a +3 bonus to attack and damage rolls made with this magic weapon.

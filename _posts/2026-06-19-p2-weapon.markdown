@@ -1,0 +1,10 @@
+---
+layout: post
+title: "+2 Weapon"
+date: 2026-06-19
+sources: [DMG.213]
+tags: [rare, weapon]
+---
+***Weapon, rare***
+
+You have a +2 bonus to attack and damage rolls made with this magic weapon.

@@ -1,0 +1,10 @@
+---
+layout: post
+title: "+1 Weapon"
+date: 2026-06-19
+sources: [DMG.213]
+tags: [uncommon, weapon]
+---
+***Weapon, uncommon***
+
+You have a +1 bonus to attack and damage rolls made with this magic weapon.
