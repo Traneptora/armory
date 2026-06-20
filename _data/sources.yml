@@ -34,4 +34,5 @@
   source: DMG
 - name: "Eberron: Rising from the Last War"
   source: ERLW
-  
+- name: "Wild Beyond the Witchlight"
+  source: WBW
