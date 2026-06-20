@@ -3,7 +3,7 @@ layout: post
 title: "Pearl of Power"
 date: 2026-06-19
 sources: [DMG.184]
-tags: [common, wondrous-item, attunement]
+tags: [uncommon, wondrous-item, attunement]
 subtags: [attunement: spellcaster]
 ---
 ***Wondrous item, uncommon (requires attunement by a spellcaster)***
