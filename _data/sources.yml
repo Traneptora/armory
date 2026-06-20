@@ -36,3 +36,5 @@
   source: ERLW
 - name: "Wild Beyond the Witchlight"
   source: WBW
+- name: "Princes of the Apocalpyse"
+  source: PA
