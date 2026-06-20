@@ -3,7 +3,7 @@ layout: post
 title: "Outer Essence Shard (Good)"
 date: 2026-06-19
 sources: [TCE.133]
-tags: [uncommon, wondrous-item, attunement]
+tags: [rare, wondrous-item, attunement]
 subtags: [attunement: sorcerer]
 ---
 ***Wondrous item, rare (requires attunement by a sorcerer)***
