@@ -21,7 +21,7 @@ task :generate do
   system "rm -f -r dist/scripts/"
 end
 
-desc "Generate and publish blog to grimoire-dist"
+desc "Generate and publish blog to armory-dist"
 task :publish => [:generate] do
   Dir.chdir "dist/"
   message = "Site updated at #{Time.now.utc}"
