@@ -38,3 +38,7 @@
   source: WBW
 - name: "Princes of the Apocalpyse"
   source: PA
+- name: "Descent into the Lost Caverns of Tsojcanth"
+  source: DLCT
+- name: "Phandelver and Below: The Shattered Obelisk"
+  soruce: PBTSO
