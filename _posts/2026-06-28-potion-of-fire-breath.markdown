@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Potion of Animal Friendship"
+title: "Potion of Fire Breath"
 date: 2026-06-28
 sources: [DMG.187]
 tags: [uncommon, potion, consummable]
