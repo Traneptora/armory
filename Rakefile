@@ -17,6 +17,8 @@ task :generate do
     "source"      => ".",
     "destination" => "dist"
   })).process
+  system "find dist/ -type f -name '*.html' -exec scripts/postproc.sh {} \\;"
+  system "rm -f -r dist/scripts/"
 end
 
 desc "Generate and publish blog to grimoire-dist"
