@@ -42,3 +42,5 @@
   source: DLCT
 - name: "Phandelver and Below: The Shattered Obelisk"
   soruce: PBTSO
+- name: "Tales from the Yawning Portal"
+  source: TYP
