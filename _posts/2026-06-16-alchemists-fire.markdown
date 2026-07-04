@@ -3,7 +3,7 @@ layout: post
 title: "Alchemist’s Fire"
 date: 2026-06-16
 sources: [PHB.148, SRD.66, FBR.49]
-tags: [mundane, adventuring-gear]
+tags: [mundane, adventuring-gear, consummable]
 ---
 ***Adventuring gear, mundane***
 
