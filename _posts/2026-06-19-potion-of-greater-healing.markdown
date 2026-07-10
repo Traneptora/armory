@@ -7,4 +7,4 @@ tags: [uncommon, potion, consummable]
 ---
 ***Potion, uncommon***
 
-You regain 4d4 + 4 hit points when you drink this potion. The potion’s red liquid glimmers when agitated.
+You regain **4d4 + 4** hit points when you drink this potion. The potion’s red liquid glimmers when agitated.
