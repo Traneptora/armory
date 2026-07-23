@@ -3,7 +3,7 @@ layout: post
 title: "Potion of Giant Strength"
 date: 2026-07-23
 sources: [DMG.187]
-tags: [uncommon, rare, very-rare, legendary, potion, consumable]
+tags: [uncommon, rare, very-rare, legendary, potion, consummable]
 ---
 ***Potion, rarity varies***
 
