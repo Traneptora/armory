@@ -64,7 +64,10 @@
 						{% assign subtag_list = subtag_list | append: "," | append: item[0] | append: "-" | append: item[1] %}
 					{% endfor %}
 					{% endfor %}
-					<li class="post-link-container" data-tags="{{ post.tags | join: ',' }}{{ subtag_list }}" data-sources="{{ post.sources | join: ',' }}">
+                    <li class="post-link-container"
+                            data-tags="{{ post.tags | join: ',' }}{{ subtag_list }}"
+                            data-sources="{{ post.sources | join: ',' }}"
+                            data-jets="{{ post.title | downcase | replace: '’', '&apos;' }}">
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</li>
 					{% endif %}
