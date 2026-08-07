@@ -3,7 +3,7 @@ layout: post
 title: "Astromancy Archive"
 date: 2026-08-06
 sources: [TCE.120]
-tags: [rare, wondrous-item, atttunement]
+tags: [rare, wondrous-item, attunement]
 subtags: [attunement: wizard]
 ---
 ***Wondrous item, rare (requires attunement by a wizard)***

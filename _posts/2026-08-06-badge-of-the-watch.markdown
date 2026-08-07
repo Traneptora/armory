@@ -3,7 +3,7 @@ layout: post
 title: "Badge of the Watch"
 date: 2026-08-06
 sources: [WDH.189]
-tags: [rare, wondrous-item, atttunement]
+tags: [rare, wondrous-item, attunement]
 ---
 ***Wondrous item, rare (requires attunement)***
 
