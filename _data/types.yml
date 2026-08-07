@@ -1,5 +1,7 @@
 - tag: adventuring-gear
   name: "Adventuring Gear"
+- tag: ammunition
+  name: "Ammunition"
 - tag: armor
   name: "Armor"
   subtags:
