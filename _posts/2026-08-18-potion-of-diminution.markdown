@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Potion of Dimunition"
+title: "Potion of Diminution"
 date: 2026-08-18
 sources: [DMG.187]
 tags: [rare, potion, consummable]
