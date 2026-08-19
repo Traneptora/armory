@@ -1,0 +1,11 @@
+---
+layout: post
+title: "+3 Shield"
+date: 2026-08-18
+sources: [DMG.100]
+tags: [very-rare, armor]
+subtags: [armor: shield]
+---
+***Shield, very rare***
+
+While holding this shield, you have a +3 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC.

@@ -11,6 +11,8 @@
      name: "Medium"
    - tag: heavy
      name: "Heavy"
+   - tag: shield
+     name: "Shield"
 - tag: potion
   name: "Potions"
 - tag: ring
