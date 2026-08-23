@@ -2,7 +2,7 @@
 layout: post
 title: "Spell Scroll (5th Level)"
 date: 2026-08-23
-sources: [DMG.203]
+sources: [DMG.204]
 tags: [rare, scroll, consummable]
 ---
 ***Scroll, rare***
