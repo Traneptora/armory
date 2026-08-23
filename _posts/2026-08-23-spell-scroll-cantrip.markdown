@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spell Scroll (1st Level)"
+title: "Spell Scroll (Cantrip)"
 date: 2026-08-23
 sources: [DMG.199]
 tags: [common, scroll, consummable]
