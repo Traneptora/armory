@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Iron Ball"
+date: 2026-08-30
+sources: [IDRF.238]
+tags: [weapon, mundane]
+subtags: [weapon: ranged, weapon: simple]
+---
+***Simple ranged weapon, mundane***
+
+The ball is a simple ranged weapon with the finesse and thrown properties. Its range is 120 feet, and it deals **1d4** bludgeoning damage on a hit.
