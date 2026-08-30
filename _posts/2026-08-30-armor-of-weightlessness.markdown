@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Armor of Weightnlessness"
+title: "Armor of Weightlessness"
 date: 2026-08-30
 sources: [BMT.65]
 tags: [uncommon, armor, attunement]
