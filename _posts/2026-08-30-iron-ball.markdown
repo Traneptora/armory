@@ -3,7 +3,7 @@ layout: post
 title: "Iron Ball"
 date: 2026-08-30
 sources: [IDRF.238]
-tags: [weapon, mundane]
+tags: [mundane, weapon]
 subtags: [weapon: ranged, weapon: simple]
 ---
 ***Simple ranged weapon, mundane***
