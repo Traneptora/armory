@@ -4,7 +4,7 @@ title: "Staff of Withering"
 date: 2026-09-19
 sources: [DMG.205]
 tags: [rare, staff, weapon, attunement]
-subtags: [attunement: cleric, attunement: druid, attunement: warlock, weapon: melee, weapon: simple]
+subtags: [weapon: melee, weapon: simple, attunement: cleric, attunement: druid, attunement: warlock]
 ---
 ***Staff, rare (requires attunement by a cleric, druid, or warlock)***
 
