@@ -3,7 +3,7 @@ layout: post
 title: "+3 Rhythm-Maker’s Drum"
 date: 2026-09-20
 sources: [TCE.134]
-tags: [very rare, wondrous-item, attunement]
+tags: [very-rare, wondrous-item, attunement]
 subtags: [attunement: bard]
 ---
 ***Wondrous item, very rare (requires attunement by a bard)***
