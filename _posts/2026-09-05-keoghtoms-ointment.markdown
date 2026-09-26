@@ -11,4 +11,4 @@ This glass jar, 3 inches in diameter, contains **1d4 + 1** doses of a thick mixt
 
 As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains **2d8 + 2** hit points, ceases to be poisoned, and is cured of any disease.
 
-*(Armory note: “key-ottom's ointment.” It is named after Tom Keogh, who was friends with Gary Gygax, a co-founder of D&D.)*
+*(Armory Note: “key-ottom’s ointment.” It is named after Tom Keogh, who was friends with Gary Gygax, a co-founder of D&D.)*
