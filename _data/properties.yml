@@ -1,6 +1,8 @@
 - tag: attunement
   name: "Requires Attunement"
   subtags:
+   - name: Humanoid
+   - tag: humanoid
    - name: Artificer
      tag: artificer
    - name: Bard
