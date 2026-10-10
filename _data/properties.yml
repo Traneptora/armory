@@ -2,7 +2,9 @@
   name: "Requires Attunement"
   subtags:
    - name: Humanoid
-   - tag: humanoid
+     tag: humanoid
+   - name: Dwarf
+     tag: dwarf
    - name: Artificer
      tag: artificer
    - name: Bard
@@ -23,5 +25,7 @@
      tag: wizard
    - name: Spellcaster
      tag: spellcaster
+   - name: Special
+     tag: special
 - tag: consummable
   name: "Consummable"
